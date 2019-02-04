@@ -13,6 +13,7 @@
 		F68673272207D6AA004F8843 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68673252207D6AA004F8843 /* Main.storyboard */; };
 		F68673292207D6AB004F8843 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F68673282207D6AB004F8843 /* Assets.xcassets */; };
 		F686732C2207D6AB004F8843 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F686732A2207D6AB004F8843 /* LaunchScreen.storyboard */; };
+		F68673382207EAE1004F8843 /* DropabblePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68673372207EAE1004F8843 /* DropabblePin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F68673282207D6AB004F8843 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F686732B2207D6AB004F8843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F686732D2207D6AB004F8843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F68673372207EAE1004F8843 /* DropabblePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropabblePin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		F68673342207D752004F8843 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F68673372207EAE1004F8843 /* DropabblePin.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F68673242207D6AA004F8843 /* MapVC.swift in Sources */,
+				F68673382207EAE1004F8843 /* DropabblePin.swift in Sources */,
 				F68673222207D6AA004F8843 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
