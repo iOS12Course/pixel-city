@@ -15,6 +15,7 @@
 		F686732C2207D6AB004F8843 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F686732A2207D6AB004F8843 /* LaunchScreen.storyboard */; };
 		F68673382207EAE1004F8843 /* DropabblePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68673372207EAE1004F8843 /* DropabblePin.swift */; };
 		F686733A220BDFA3004F8843 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6867339220BDFA3004F8843 /* PhotoCell.swift */; };
+		F686733C2210DE6A004F8843 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F686733B2210DE6A004F8843 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		F686732D2207D6AB004F8843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F68673372207EAE1004F8843 /* DropabblePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropabblePin.swift; sourceTree = "<group>"; };
 		F6867339220BDFA3004F8843 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		F686733B2210DE6A004F8843 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		F68673362207D76A004F8843 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				F686733B2210DE6A004F8843 /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F686733C2210DE6A004F8843 /* Constants.swift in Sources */,
 				F686733A220BDFA3004F8843 /* PhotoCell.swift in Sources */,
 				F68673242207D6AA004F8843 /* MapVC.swift in Sources */,
 				F68673382207EAE1004F8843 /* DropabblePin.swift in Sources */,
